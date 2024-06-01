@@ -1,0 +1,38 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 730px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row; /* Ensure this is row to align children horizontally */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    gap: 20px; /* Add space between the two sections */
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.score-board {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.score {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+

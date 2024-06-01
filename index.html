@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src = app.js></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div id="wrapper" class="wrapper">
+        <div class="button-wrapper">
+            <button id="rock">ROCK</button>
+            <button id="paper">PAPER</button>
+            <button id="scissors">SCISSORS</button>
+        </div>
+        <div class="score-board">
+            <div class="score">
+                <p>Player Score: </p>
+                <p id="player-score">0</p>
+            </div>
+            <div class="score">
+                <p>Computer Score: </p>
+                <p id="computer-score">0</p>
+            </div>
+        </div>
+    </div>
+    <div id="choices">
+        <div>
+            <p>Player Choice: </p>
+            <p id="player-choice"></p>
+        </div>
+        <div>
+            <p>Computer Choice: </p>
+            <p id="computer-choice"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
 </html>
